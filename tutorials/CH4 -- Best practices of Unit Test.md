@@ -204,3 +204,23 @@ it is much harder to get value of `expected`.
 
 It is a disaster.
 
+## CH4-7 -- Extract the setup logic to helper methods (especially for complex logic)
+
+For complex logic, it is recommended to extract the setup logic to helper methods since
+
+there are some advantages that modularity has.
+
++ More readable.
+
++ High reusability
+
++ More flexible: Just needs to pass different value as arguments.
+
+### Examples
+#### Example 1
+Compare these two code snippets
+
+[Unit Test containing Coding Logic Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-7.cs)
+
+[Unit Test Not containing Coding Logic Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-7.cs)
+ 
