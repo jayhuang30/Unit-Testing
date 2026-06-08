@@ -1,4 +1,4 @@
-# CH4 -- Best practices of Unit Test.md
+# CH4 -- Best practices of Unit Test
 ## objectives
 In this article, you will learn principles that you need to apply when you write unit tests.
 
@@ -8,6 +8,10 @@ It means that you should not make your code as [spaghetii code](https://en.wikip
 which means you should make a utility class as less couple as you can (and use interface), 
 
 since one can easily just mock the method to test the functionality behaves as expected.
+
+### Examples
+
+For example,
 
 ## CH4.2 -- Follow test naming standards
 
