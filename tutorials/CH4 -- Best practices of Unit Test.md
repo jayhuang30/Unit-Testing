@@ -124,3 +124,33 @@ in one statement, it acts the object and check the return value of the action.
 + One the other hand, in `Unit Test with Good Arrangement Example`,
 
 one can easily and quickly see which arrangment it is, which action it is, which assertions they are. 
+
+## CH4-4 -- Write minimally passing tests
+Write it as simple as one can in any test case.
+
+If one needs to test the other cases, please write the other test cases. 
+
+### Examples
+#### Example 1
+Compare these two code snippets
+
+[Unit Test with Misleading Content Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-4.cs)
+
+[Unit Test without Misleading Content Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-4.cs)
+
++ In `Unit Test with Misleading Content Example`,
+
+when one see `var actual = stringCalculator.Add("42");`,
+
+the one might be confused why developer needs to add `42`, not `0`?
+
++ One the other hand, in `Unit Test without Misleading Content Example`,
+
+one may not be confused why developer needs to add `0`? 
+
+Because the method name `Add_SingleNumber_ReturnsSameNumber()` clearly says 
+
+after adding a a number (let's called `n`) to an another single number, it is expected to be equal the original one (`n`),
+
+and it is ensured that adding a number to zero is always equal to the number itself. 
+
