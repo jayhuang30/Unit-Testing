@@ -154,3 +154,53 @@ after adding a a number (let's called `n`) to an another single number, it is ex
 
 and it is ensured that adding a number to zero is always equal to the number itself. 
 
+## CH4-5 -- Avoid magic numbers or strings
+Avoiding any magic numbers or string without any extra comment or context since 
+
+these values make it less readable (and cause confusion to the reader) and harder to maintain.
+
+### Examples
+#### Example 1
+Compare these two code snippets
+
+[Unit Test with Magical Strings Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-5.cs)
+
+[Unit Test without Magical Strings Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-5.cs)
+
+`Unit Test without Magical Strings Example` is obviously more readable for readers and more maintenable, isn't it?
+
+## CH4-6 -- Avoid coding logic in unit tests
+Never coding logic in unit tests. 
+
+To do so, you can use one `[Theory]` Data Annotation and a series of `[InlineData]` Data Annotation.
+
+See following examples.
+
+### Examples
+#### Example 1
+Compare these two code snippets
+
+[Unit Test containing Coding Logic Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-6.cs)
+
+[Unit Test Not containing Coding Logic Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-6.cs)
+
++ In `Unit Test containing Coding Logic Example` example,
+
+value of `expected` is dynamically calculated in a `for` loop.
+
++ While, on the other hand, in `Unit Test Not containing Coding Logic Example` example,
+
+the `expected` is one of the parameters of the method.
+
+Thus, it doesn't need to dynamically calculate the value of `expected`.
+
+It is more readable for reader and more maintenable.
+
+Image a situation:
+
+If one can't find regularity among the sequence of expected value,
+
+it is much harder to get value of `expected`.
+
+It is a disaster.
+
