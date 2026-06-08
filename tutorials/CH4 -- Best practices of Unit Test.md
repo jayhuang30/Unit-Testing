@@ -220,7 +220,12 @@ there are some advantages that modularity has.
 #### Example 1
 Compare these two code snippets
 
-[Unit Test containing Coding Logic Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-7.cs)
+[Unit Test containing Coding Logic Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-7-2.cs)
 
-[Unit Test Not containing Coding Logic Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-7.cs)
- 
+[Unit Test Not containing Coding Logic Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-7-2.cs)
+
+In `Unit Test Not containing Coding Logic Example` example (actual scenario written when I developed the utility packages),
+
+ although I can refactor it, making it more readable,
+
+ it is more maintenable than `Unit Test containing Coding Logic Example` example, isn't it?
