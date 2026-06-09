@@ -125,6 +125,12 @@ in one statement, it acts the object and check the return value of the action.
 
 one can easily and quickly see which arrangment it is, which action it is, which assertions they are. 
 
+Additionally, it has other benefits,
+
++ it can prevent the pollution of input of different set of input case, making each set of input set are independent.
+
++ it can make it more readable for reader.
+
 ## CH4-4 -- Write minimally passing tests
 Write it as simple as one can in any test case.
 
@@ -174,7 +180,7 @@ Never coding logic in unit tests.
 
 To do so, you can use one `[Theory]` Data Annotation and a series of `[InlineData]` Data Annotation.
 
-See following examples.
+See following examples for its pros.
 
 ### Examples
 #### Example 1
@@ -196,6 +202,10 @@ Thus, it doesn't need to dynamically calculate the value of `expected`.
 
 It is more readable for reader and more maintenable.
 
+Additionally, the test runner will consider there are many test cases, making it more debuggable.
+
+See [example of CH4-8] for more understanding.
+
 Image a situation:
 
 If one can't find regularity among the sequence of expected value,
@@ -203,6 +213,7 @@ If one can't find regularity among the sequence of expected value,
 it is much harder to get value of `expected`.
 
 It is a disaster.
+
 
 ## CH4-7 -- Extract the setup logic to helper methods (especially for complex logic)
 
@@ -228,4 +239,29 @@ In `Unit Test Not containing Coding Logic Example` example (actual scenario writ
 
  although I can refactor it, making it more readable,
 
- it is more maintenable than `Unit Test containing Coding Logic Example` example, isn't it?
+ it is more maintenable and readable than `Unit Test containing Coding Logic Example` example, isn't it?
+ 
+## CH4-8 -- Avoid multiple Act tasks in one input test
+Let's compare these examples to quickly review the advantages mentioned in [CH4-7]()
+
+### Examples
+#### Example 1
+Compare these two code snippets
+
+[Multiple Act Tasks in One Input Test Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-8.cs)
+
+[Single Act Task in One Input Test Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-8.cs)
+
+In `Multiple Act Tasks in One Input Test Example` example, it is sematically equivalent to iterate all items of array 
+
+such as [sematically Equivalent to Multiple Act Tasks in One Input Test Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-8-sematically-equivalence.cs)
+
++ Although it can work,
+
+it has a little fatal potent bugs
+
+    - it forces one to write boilerpolate code or to write a loop to iterate for each input set, and thus less readibility.
+
+    - The test runner will consider there is one input set in one test method, making it harder readable. 
+
+  
