@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Bad-Example/Bad-Example.csproj" />
+  <Project Path="Calculator/Calculator.csproj" />
+  <Project Path="Good-Example/Good-Example.csproj" />
+</Solution>

@@ -1,0 +1,2 @@
+# description of [screenshot](BadDesignPatternExample#GetDiscountedPrice_NotTuesday_ReturnsFullPrice#WhenInTuesday.png)
+因為(截圖)當天是星期二，且該方法無法被Mock任意一個星期幾，導致永遠進入不了非星期二的分支內，永遠只會回傳一半的價格。導致`GetDiscountedPrice_NotTuesday_ReturnsFullPrice`方法此時會因斷言不符合預期而該測試案例失敗。同理，也可套用到星期一到星期日。
