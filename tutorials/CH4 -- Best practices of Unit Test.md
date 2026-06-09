@@ -252,16 +252,28 @@ Compare these two code snippets
 
 [Single Act Task in One Input Test Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-8.cs)
 
-In `Multiple Act Tasks in One Input Test Example` example, it is sematically equivalent to iterate all items of array 
++ In `Multiple Act Tasks in One Input Test Example` example, it is sematically equivalent to iterate all items of array 
 
 such as [sematically Equivalent to Multiple Act Tasks in One Input Test Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Bad-Ex4-8-sematically-equivalence.cs)
 
-+ Although it can work,
+Although it can work,
 
 it has a little fatal potent bugs
 
     - it forces one to write boilerpolate code or to write a loop to iterate for each input set, and thus less readibility.
 
-    - The test runner will consider there is one input set in one test method, making it harder readable. 
+    - The test runner will consider there is one input set in one test method, making it less readable
 
-  
++ On the other hand,
+
+In `Single Act Task in One Input Test Example` example.
+
+The test runner will consider there are one or more input sets (that reflects the actual number of test sets you want to) in one test method, making it more readable.
+
+See examples for more details.
+
+## CH4-9 -- Validate private methods with public methods
+
+At present, the open-source `NuGet` package, it can **ONLY** mock the interfaces (thus can setup its behavior of the method that are implemented in `class`) and `virtual` methods.
+
+Similary, the open-source `NuGet` package, it can **ONLY** substitute interfaces and virtual methods as callback you want through intercepting them. 
