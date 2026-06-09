@@ -274,6 +274,19 @@ See examples for more details.
 
 ## CH4-9 -- Validate private methods with public methods
 
-At present, the open-source `NuGet` package, it can **ONLY** mock the interfaces (thus can setup its behavior of the method that are implemented in `class`) and `virtual` methods.
+At present, the open-source `NuGet` package, it can **ONLY** mock the interfaces (thus can setup its behavior of the method that are implemented in `class`) and `virtual` methods 
+
+(if one uses neither the `Source Generator` nor reflection nor other dangerous operations)
 
 Similary, the open-source `NuGet` package, it can **ONLY** substitute interfaces and virtual methods as callback you want through intercepting them. 
+
+(if one uses neither the `Source Generator` nor reflection nor other dangerous operations)
+
+On the other hand,
+
+An interface behaves like a contract, when a class implements an inteface, compiler will only forces the class that needs to implement these methods defined in the interface.
+
+Thus, it is impossible to mock or substitute a `private` method.
+
+The only way to be validate the `private` method is to validate the `public` methods (which it calls the `private` methods)
+ 
