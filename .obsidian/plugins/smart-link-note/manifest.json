@@ -1,0 +1,10 @@
+{
+	"id": "smart-link-note",
+	"name": "Smart Link Note",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Create new notes, auto-link, and copy wiki links easily",
+	"author": "ShaneJ",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}

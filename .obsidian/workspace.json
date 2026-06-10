@@ -1,0 +1,314 @@
+{
+  "main": {
+    "id": "6c607f53ee714b4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f3b68d457d1c2f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a12023da14b5f481",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorials/CH1 -- Introduction of unit test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CH1 -- Introduction of unit test"
+            }
+          },
+          {
+            "id": "7e70624e6471fac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorials/CH9 -- Packages.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CH9 -- Packages"
+            }
+          },
+          {
+            "id": "df76e9e63d24d966",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attachments/tutorials/testing demo/Create-Solution-Or-Open-Solution.png"
+              },
+              "icon": "lucide-image",
+              "title": "Create-Solution-Or-Open-Solution"
+            }
+          },
+          {
+            "id": "68d331ab247de3fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "02ce91251e119aef",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attachments/tutorials/testing demo/Solution-icon.png"
+              },
+              "icon": "lucide-image",
+              "title": "Solution-icon"
+            }
+          },
+          {
+            "id": "546f5367373cd38d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorials/CH1 -- Introduction of unit test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CH1 -- Introduction of unit test"
+            }
+          },
+          {
+            "id": "848f767231ef1c24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorials/CH1 -- Introduction of unit test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CH1 -- Introduction of unit test"
+            }
+          },
+          {
+            "id": "6859a44eabe351f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorials/CH9 -- Packages.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CH9 -- Packages"
+            }
+          },
+          {
+            "id": "72c7c52e956aeb04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorials/CH3 -- Create a test project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CH3 -- Create a test project"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0908dc128a156f6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "77980dd318dcd5f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f07510e5c45f8fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "26cc0f9524f2472c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Copy Document Link",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1997d0429d5c49d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a992a1253d542ef4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab9b82784f1794a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a238ee65c3034493",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tutorials/CH9 -- Packages.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CH9 -- Packages"
+            }
+          },
+          {
+            "id": "e33977883182c0d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tutorials/CH9 -- Packages.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CH9 -- Packages"
+            }
+          },
+          {
+            "id": "fe20dd1a856c6ec5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1732955feaf4c5cd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cae0f33f9a8d5c38",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tutorials/CH9 -- Packages.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CH9 -- Packages"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7e70624e6471fac2",
+  "lastOpenFiles": [
+    "tutorials/CH3 -- Create a test project.md",
+    "tutorials/CH8 -- Options of tests in .NET CLI.md",
+    "tutorials/CH7 -- Test Frameworks.md",
+    "tutorials/CH6 -- Test Platforms.md",
+    "tutorials/CH5 -- Test the test cases.md",
+    "tutorials/CH2 -- Installation.md",
+    "Attachments/tutorials/testing demo/Create-Solution-Or-Open-Solution.png",
+    "tutorials/CH1 -- Introduction of unit test.md",
+    "Attachments/tutorials/testing demo/Solution-icon.png",
+    "Untitled.base",
+    "CH1-3%20--%20Features.md",
+    "Solution-icon.md",
+    "tutorials/CH9 -- Packages.md",
+    "CH1-3 -- Features.md",
+    "Attachments/tutorials/~$prequisite-for-unit-test.xlsx",
+    "tutorials/CH4 -- Best practices of Unit Test.md",
+    "Example-Projects/Ex4/Ex4-8.md",
+    "tutorial-of-Unit-Testing-repomix-output.md",
+    "repomix.config.json",
+    "Attachments/tutorials/testing demo/RunTesting.png"
+  ]
+}

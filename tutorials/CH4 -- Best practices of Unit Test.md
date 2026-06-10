@@ -35,7 +35,7 @@ making it less maintainability and less flexible.
 
 Thus, one can say it is highly-coupled.
 
-+ On the other hand, in `Explicit Dependencies Example` exmaple,
++ On the other hand, in `Explicit Dependencies Example` example,
 
 the `Log` method defined in `PersonalizedResponse` class depends on the value of arguments of this method call.
 
@@ -131,7 +131,7 @@ Additionally, it has other benefits,
 
 + it can make it more readable for reader.
 
-## CH4-4 -- Write minimally passing tests
+## CH4-4 -- Write minimal passing tests
 Write it as simple as one can in any test case.
 
 If one needs to test the other cases, please write the other test cases. 
@@ -173,7 +173,7 @@ Compare these two code snippets
 
 [Unit Test without Magical Strings Example](https://github.com/jayhuang30/Unit-Testing/blob/main/Examples/Ex4/Good-Ex4-5.cs)
 
-`Unit Test without Magical Strings Example` is obviously more readable for readers and more maintenable, isn't it?
+`Unit Test without Magical Strings Example` is obviously more readable for readers and more maintainable, isn't it?
 
 ## CH4-6 -- Avoid coding logic in unit tests
 Never coding logic in unit tests. 
@@ -200,11 +200,11 @@ the `expected` is one of the parameters of the method.
 
 Thus, it doesn't need to dynamically calculate the value of `expected`.
 
-It is more readable for reader and more maintenable.
+It is more readable for reader and more maintainable.
 
-Additionally, the test runner will consider there are many test cases, making it more debuggable.
+Additionally, the test runner will consider there are many test cases, making it more easily to  debug.
 
-See [example of CH4-8] for more understanding.
+See <../Example-Projects/Ex4/Ex4-8/> for more understanding.
 
 Image a situation:
 
@@ -290,3 +290,6 @@ Thus, it is impossible to mock or substitute a `private` method.
 
 The only way to be validate the `private` method is to validate the `public` methods (which it calls the `private` methods)
  
+## References
+
++ [Unit testing best practices for .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
